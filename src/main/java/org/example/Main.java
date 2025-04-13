@@ -8,8 +8,8 @@ public class Main {
             System.out.println("hi "+i);
             i++;
         }
-        if(i!=0){
-            System.out.println("hi "+i);
-        }
+        if (i != 0) {
+    throw new RuntimeException("Test failed: i is not 0");
+}
     }
 }
